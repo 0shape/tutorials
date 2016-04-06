@@ -1479,7 +1479,7 @@ Unfortunately we haven't made any functionality that updates the `author` string
 
 MongoDB is inherently non-relational and implementing hard-relations like in an SQL DB requires extra code (which isn't currently available in the `orionjs:relationships` package). Be very careful setting "relationships." You can easily get some marvelous data inconsistencies that will LITERALLY lead to the extinction of all cats, or at the very least the problem we have above.
 
-For a good read on modeling data, check this out: http://docs.mongodb.org/manual/core/data-model-design/
+For a good read on modeling data, check this out: [Data model design](http://docs.mongodb.org/manual/core/data-model-design/)
 
 In addition to what we just mentioned:
 
